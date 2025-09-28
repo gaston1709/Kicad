@@ -1,11 +1,18 @@
-# Ignorar todo
+# Ignorar carpetas que no quiero versionar
+3dmodels/
+resources/
+symbols/
+plugins/
+footprints/
+
+# Ignorar todo por defecto
 *
 
 # Permitir el .gitignore
 !.gitignore
 
-# Permitir Snapeda y Samacsys
-!Snapeda*/
-!Snapeda.*
+# Permitir todo lo que tenga Samacsys o Snapeda en el nombre
 !Samacsys*/
 !Samacsys.*
+!Snapeda*/
+!Snapeda.*
