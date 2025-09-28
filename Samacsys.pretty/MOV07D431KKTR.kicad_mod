@@ -1,0 +1,257 @@
+(footprint "MOV07D431KKTR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "MOV-07D431KKTR")
+	(tags "Varistor")
+	(property "Reference" "RV**"
+		(at 2.5 0 0)
+		(layer "F.SilkS")
+		(uuid "87dbc9d1-7119-4293-aa9d-69d3e8d556ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "MOV07D431KKTR"
+		(at 2.5 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "827d6a6e-cb5a-4d4f-8824-c5c8b42fc7bc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42c1b17f-a8ef-4231-91d0-f8432443512c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d55b7cd7-beaa-429e-9526-cd24736d4cd0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2 -2.4)
+		(end -2 2.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "284285d6-8bcb-434a-bae0-8f7240e174e9")
+	)
+	(fp_line
+		(start -2 2.4)
+		(end 7 2.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "007035c8-87b7-4467-afbe-6b3c985bd349")
+	)
+	(fp_line
+		(start 0 -2.9)
+		(end 0 -2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "001efeba-044a-43c7-9d4f-313f6070ad02")
+	)
+	(fp_line
+		(start 0 -2.8)
+		(end 0 -2.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8f085089-126f-4432-8807-8d0f6b3b125d")
+	)
+	(fp_line
+		(start 7 -2.4)
+		(end -2 -2.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6cb76349-373f-4efd-957e-5be59c873b54")
+	)
+	(fp_line
+		(start 7 2.4)
+		(end 7 -2.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d8403e38-602a-4be7-984c-77bb9b70a779")
+	)
+	(fp_arc
+		(start 0 -2.9)
+		(mid 0.05 -2.85)
+		(end 0 -2.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4d0a58e-84de-4b41-9624-2808eebaaa74")
+	)
+	(fp_arc
+		(start 0 -2.8)
+		(mid -0.05 -2.85)
+		(end 0 -2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "64d8dc48-3178-434b-8d4e-9fb57f40ab5d")
+	)
+	(fp_line
+		(start -3 -3.4)
+		(end 8 -3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6b22f076-0711-4241-b60c-c286327052a8")
+	)
+	(fp_line
+		(start -3 3.4)
+		(end -3 -3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "991f2783-504b-4d0a-b47a-f93349f338cf")
+	)
+	(fp_line
+		(start 8 -3.4)
+		(end 8 3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5f5849bc-dbe0-42ec-b933-0a8da53166bf")
+	)
+	(fp_line
+		(start 8 3.4)
+		(end -3 3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9b559b35-e05e-40b9-8a02-23cae0f958e2")
+	)
+	(fp_line
+		(start -2 -2.4)
+		(end -2 2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5a044b0b-9e54-47e1-884c-b1ee60bee308")
+	)
+	(fp_line
+		(start -2 2.4)
+		(end 7 2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aa2ae18b-5c0d-46d6-a03e-7f0afcc5a07f")
+	)
+	(fp_line
+		(start 7 -2.4)
+		(end -2 -2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "01144d47-da81-4dc9-9c8c-566ab3f5de24")
+	)
+	(fp_line
+		(start 7 2.4)
+		(end 7 -2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "10c8ab55-44c0-43ce-8e43-2df561fb62f7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 0 0)
+		(layer "F.Fab")
+		(uuid "97b88434-3813-48a1-b3c9-b163f5dc9ee2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.3 1.3)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c54c6b88-3ff8-47e7-bf6d-ed81b8033a46")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 1.3 1.3)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "76f59212-d43d-4526-97f8-9f05aef94256")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/MOV-07D431KKTR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

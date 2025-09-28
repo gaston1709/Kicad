@@ -6,13 +6,12 @@ plugins/
 footprints/
 
 # Ignorar todo por defecto
-*
 
 # Permitir el .gitignore
 !.gitignore
 
 # Permitir todo lo que tenga Samacsys o Snapeda en el nombre
-!Samacsys*/
+!Samacsys*
 !Samacsys.*
-!Snapeda*/
+!Snapeda*
 !Snapeda.*

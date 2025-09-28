@@ -1,0 +1,211 @@
+(footprint "LEDC3216X120N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LTST-C150KFKT")
+	(tags "LED")
+	(property "Reference" "LED**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "c71feff5-573e-43b0-ab56-c3f85693de5e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "LEDC3216X120N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a87f46c0-e3fe-4a7d-9fd3-dbbb810957f5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "faf8f8c7-bea7-4b70-84a0-08061a6ebc72")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c63a822b-a653-4996-8b71-7ec6408c0c3e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.35 -1.225)
+		(end -2.35 1.225)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e21c06cb-a68a-472b-beff-6a7e91236704")
+	)
+	(fp_line
+		(start -2.35 1.225)
+		(end 1.5 1.225)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2d4b7ccf-2562-4765-8528-012667dfc9fe")
+	)
+	(fp_line
+		(start 1.5 -1.225)
+		(end -2.35 -1.225)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3cd55e8f-ead3-4a2d-ba23-8300e05d9b76")
+	)
+	(fp_line
+		(start -2.45 -1.325)
+		(end 2.45 -1.325)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4c33c107-15cb-4059-80f4-7464ad045dc1")
+	)
+	(fp_line
+		(start -2.45 1.325)
+		(end -2.45 -1.325)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c00670ea-143c-44e3-bd69-5336ee93f1bd")
+	)
+	(fp_line
+		(start 2.45 -1.325)
+		(end 2.45 1.325)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "65264fef-0f20-417a-9c76-8a8662bc9688")
+	)
+	(fp_line
+		(start 2.45 1.325)
+		(end -2.45 1.325)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7006665a-ba2b-47f7-aeee-fbd07b2c0195")
+	)
+	(fp_line
+		(start -1.6 -0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d27ddf52-7da5-4215-99ff-e4fc5a0ee993")
+	)
+	(fp_line
+		(start -1.6 -0.267)
+		(end -1.067 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c07e89a9-8ed1-4c08-9289-33441cb9ec71")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "598c57c9-58d6-4a10-847d-fd7b270ee909")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9e68e43e-b96a-4848-88d7-6849c22ea1ba")
+	)
+	(fp_line
+		(start 1.6 0.8)
+		(end -1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "153e3256-fcd1-4204-ae14-c2bee8334825")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "fde7a777-6b62-4b34-acff-e4fb97c46eed")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.5 0)
+		(size 1 1.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "98187746-3972-4688-a305-c2989e2457d0")
+	)
+	(pad "2" smd rect
+		(at 1.5 0)
+		(size 1 1.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "faf43afd-6854-4b33-9114-d7d24d644da2")
+	)
+	(embedded_fonts no)
+	(model "LTST-C150GKT.stp"
+		(offset
+			(xyz -0.02999999888 0 0.2499999962)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,243 @@
+(footprint "SOP254P1016X460-4N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LTV-814S")
+	(tags "Transistor")
+	(property "Reference" "Q**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "f95cf525-36c5-4030-ab7c-3922a6dcfa28")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SOP254P1016X460-4N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d32102ec-6ef4-4e21-89b7-c98474a704c8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36bd1406-e333-45c8-9fd7-3a5e2550f1d7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae2bdd14-2160-4f66-b591-8cf6a59415af")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.6 -2.345)
+		(end -3.5 -2.345)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e9b83d32-5596-4707-ae9e-e57e34f0b033")
+	)
+	(fp_line
+		(start -3.15 -2.3)
+		(end 3.15 -2.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a93f835-d707-4cfa-b4c9-7b3234d7a517")
+	)
+	(fp_line
+		(start -3.15 2.3)
+		(end -3.15 -2.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f0822147-e855-4a7f-a4c6-c5d773282bc6")
+	)
+	(fp_line
+		(start 3.15 -2.3)
+		(end 3.15 2.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "97aa513d-240e-44a8-aefb-4d7904838cec")
+	)
+	(fp_line
+		(start 3.15 2.3)
+		(end -3.15 2.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "de52b7dc-0efa-482b-b4ac-0d1a5c8d5eca")
+	)
+	(fp_line
+		(start -5.85 -2.8)
+		(end 5.85 -2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "71dcb5f3-e368-47c7-b95f-0562ddee8186")
+	)
+	(fp_line
+		(start -5.85 2.8)
+		(end -5.85 -2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2209fff3-4440-41c5-9fce-4f708d5e0c88")
+	)
+	(fp_line
+		(start 5.85 -2.8)
+		(end 5.85 2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6246fcc5-13ac-40b9-8bea-2353bf02a6b3")
+	)
+	(fp_line
+		(start 5.85 2.8)
+		(end -5.85 2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "184e73ff-7cad-4ebc-a0f8-3396a67ca633")
+	)
+	(fp_line
+		(start -3.25 -2.3)
+		(end 3.25 -2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6f3d5735-b121-4b57-aceb-d308cb050f6e")
+	)
+	(fp_line
+		(start -3.25 0.24)
+		(end -0.71 -2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6e2e7f15-cdfb-4caf-83fe-b8e8f6f9c346")
+	)
+	(fp_line
+		(start -3.25 2.3)
+		(end -3.25 -2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3430f21f-afe5-4985-a521-ddd9b39b998f")
+	)
+	(fp_line
+		(start 3.25 -2.3)
+		(end 3.25 2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "21d25367-2993-4fea-bdd1-81381b36b782")
+	)
+	(fp_line
+		(start 3.25 2.3)
+		(end -3.25 2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b78b696e-dfdd-446f-941d-406f93fbd148")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "32efdc93-6f9f-483c-b89f-1a16324fb2dc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4.55 -1.27 90)
+		(size 1.45 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "24b9f500-c151-4813-b1c1-dfc40ad01fc3")
+	)
+	(pad "2" smd rect
+		(at -4.55 1.27 90)
+		(size 1.45 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3c07029c-c681-4115-a92d-7cfb08694860")
+	)
+	(pad "3" smd rect
+		(at 4.55 1.27 90)
+		(size 1.45 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a2c8509d-c241-4ec7-a420-004b9008d227")
+	)
+	(pad "4" smd rect
+		(at 4.55 -1.27 90)
+		(size 1.45 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7212eb34-acab-4031-be52-798bcfb1f972")
+	)
+	(embedded_fonts no)
+	(model "LTV-814S-TA1.stp"
+		(offset
+			(xyz -4.959999964 4.36999982 -5.800000104)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -180 -90)
+		)
+	)
+)
