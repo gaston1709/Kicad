@@ -1,0 +1,11 @@
+# Ignorar todo
+*
+
+# Permitir el .gitignore
+!.gitignore
+
+# Permitir Snapeda y Samacsys
+!Snapeda*/
+!Snapeda.*
+!Samacsys*/
+!Samacsys.*
